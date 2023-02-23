@@ -8,10 +8,9 @@ function CourseItem(props) {
     <Container className="courseItem">
       <Row>
         <Col><h1>{props.name}</h1></Col>
-        <Col><h2>{props.date}</h2></Col>
       </Row>
       <Row>
-        <Col><p>{props.explanation}</p></Col>
+        <Col><p id='coursesP'>{props.explanation}</p></Col>
       </Row>
     </Container>
   );
