@@ -6,6 +6,25 @@
     padding-top: 2rem;
 }
 
+.experiencesHolder {
+    padding: 0.5rem;
+    margin: auto;
+    width: 76rem;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+}
+
+.projectsHolder {
+    padding: 0.5rem;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
 .projectItem {
     padding: 0.5rem;
     margin: 1rem 0;
@@ -28,17 +47,7 @@
     height:100%;
     overflow: hidden;
 }
-.pageSeperatorWorkExp {
-    margin-top: 50px;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-    width: 50rem;
-    height: 10rem;
-    max-width: 75%;
-    overflow: auto;
-    background-color: #EB9DBA;
-}
+
 .itemHolder {
     padding: 20px;
     border-radius: 12px;
@@ -62,7 +71,7 @@ img {
 a {
     font-size: 16px;
     padding-top: 5px;
-    color:lightgray
+    color:dimgray;
 }
 
 a:hover {
@@ -70,7 +79,7 @@ a:hover {
   }
   
 img.internship {
-    width: 40%; 
+    width: 70%; 
     height: auto;
     justify-content: center;
 }
@@ -83,8 +92,8 @@ h1 {
 
 h2 {
     font-size: 26px;
-    padding: 5px;
-    color: rgb(104, 176, 221);
+    margin-left: 2rem;
+    color: whitesmoke;
 }
 
 p {
@@ -110,25 +119,25 @@ body {
     background-color: black;
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 0.5rem;
-    background-color: #212529;
+    background-color: black;
   }
-  
-  /* Track */
+
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px rgb(0, 0, 0); 
     border-radius: 10px;
   }
-   
-  /* Handle */
+
   ::-webkit-scrollbar-thumb {
     background: whitesmoke; 
     border-radius: 10px;
   }
-  
-  /* Handle on hover */
+
   ::-webkit-scrollbar-thumb:hover {
     background: gainsboro; 
+  }
+
+  hr {
+    border: 0.1rem solid white;
   }

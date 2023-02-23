@@ -5,15 +5,12 @@ import './HomePageComponents.css';
 
 function ProjectItem(props) {
   return (
-    <Container className="projectItem">
-      <Row>
-        <Col><h1>{props.name}</h1></Col>
-        <Col><h2>{props.languages}</h2></Col>
-      </Row>
-      <Row>
-        <Col><p>{props.explanation}</p></Col>
-      </Row>
-    </Container>
+    <div>
+      <h1>{props.name}</h1>
+      <p id="coursesP">{props.explanation1}</p>
+      <p id="coursesP">{props.explanation2}</p>
+      <p id="coursesP">{props.explanation3}</p>
+    </div>
   );
 }
 export default ProjectItem;   
