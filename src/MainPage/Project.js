@@ -21,7 +21,7 @@ const projects = [
     name: 'Erasmus Manager',
     explanation1: 'A website to manage Erasmus applications at Bilkent University.',
     explanation2: 'I acted as a requirement engineer and front-end developer.',
-    explanation3: 'I used React for developing',
+    explanation3: 'I used React for developing ',
   },
   {
     id: 3,
