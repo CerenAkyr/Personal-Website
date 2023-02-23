@@ -12,6 +12,12 @@
 	bottom: 0px;
 	width: 40%
 }
+#sakuraBranch {
+	position:fixed;
+	left:0px;
+	bottom: 0px;
+	width: 25%
+}
 .sakura {
 	position: absolute;
 	width: 100%;

@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './HomePageComponents.css';
 import CourseItem from './CourseItem';
+import branch from '../images/sakura-small.png';
 
 const courses = [
     {
@@ -54,7 +55,8 @@ const courses = [
 
 function Courses() {
     return (
-        <div className='itemHolder'>
+            <div className='itemHolder'>
+            <img id='sakuraBranch' src={branch} alt="sakura_branch" />
             {courses.map((course) => 
                 <CourseItem
                     key = {course.id}
