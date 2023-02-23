@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/home/static/css/main.b65d7def.css",
-    "main.js": "/home/static/js/main.07ca0154.js",
+    "main.js": "/home/static/js/main.b4296481.js",
     "static/media/sakura.png": "/home/static/media/sakura.f250a8df96c5a367e0cc.png",
     "static/media/sakura-small.png": "/home/static/media/sakura-small.72a2c787177c82d9e04f.png",
     "static/media/cv-foto.png": "/home/static/media/cv-foto.fd5ba5dc4f3aa3075530.png",
     "index.html": "/home/index.html",
     "main.b65d7def.css.map": "/home/static/css/main.b65d7def.css.map",
-    "main.07ca0154.js.map": "/home/static/js/main.07ca0154.js.map"
+    "main.b4296481.js.map": "/home/static/js/main.b4296481.js.map"
   },
   "entrypoints": [
     "static/css/main.b65d7def.css",
-    "static/js/main.07ca0154.js"
+    "static/js/main.b4296481.js"
   ]
 }
